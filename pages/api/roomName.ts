@@ -26,8 +26,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       }
     }
     case 'get_room_items': {
-      try {        
-        console.log('22,', roomName)
+      try {
         let data = await redis.smembers(roomName)
     
         return res.status(200).json({
