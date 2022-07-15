@@ -1,0 +1,43 @@
+{
+  "name": "chess-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fingerprintjs/fingerprintjs-pro-react": "^1.2.0",
+    "@upstash/redis": "^1.7.0",
+    "copy-to-clipboard": "^3.3.1",
+    "framer-motion": "^6.3.16",
+    "ioredis": "^5.1.0",
+    "jotai": "^1.7.3",
+    "lodash": "^4.17.21",
+    "nanoid": "^4.0.0",
+    "next": "12.2.0",
+    "qrcode.react": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@emotion/babel-plugin": "^11.9.2",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "18.0.1",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "4.7.4"
+  }
+}
